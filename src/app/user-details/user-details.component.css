@@ -1,0 +1,20 @@
+img {
+  max-width: 200px;
+}
+.error {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Optional: if you want content to stack vertically */
+  height: 100vh; /* Optional: to center vertically on the page */
+}
+
+.user-details {
+  text-align: center; /* Optional: center text within the container */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
